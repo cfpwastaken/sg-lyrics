@@ -1,0 +1,28 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "SG Lyrics",
+	"patterns": [
+		{
+			"include": "#keywords"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.sg-lyrics",
+					"match": "^[0-9]+\\b"
+				},
+				{
+					"name": "keyword.other",
+					"match": "^@[a-zA-Z]+"
+				},
+				{
+					"name": "comment",
+					"match": "#.*"
+				}
+			]
+		}
+	},
+	"scopeName": "source.lyrics"
+}
