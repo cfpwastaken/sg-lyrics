@@ -9,6 +9,7 @@
     "categories": [
         "Programming Languages"
     ],
+    "publisher": "cfp",
     "contributes": {
         "languages": [{
             "id": "sg-lyrics",
